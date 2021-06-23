@@ -1,0 +1,140 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 10%;
+
+
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0%;
+  background-color: black;
+  padding: 12px;
+  width: 100%;
+  height: 130px;
+  border-top: 10px solid green;
+  border-bottom: 14px solid green;
+}
+
+#minha_foto {
+  width: 160px;
+  margin: -20px;
+  /* deixou minha foto coladinha do lado esq*/
+  margin-top: -125px;
+  /*deixou minha foto coladinha do topo*/
+  padding: 8px;
+  position: fixed;
+  border-top: 1px solid green;
+
+}
+
+#titulo {
+  color: white;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  text-align: center;
+
+}
+
+li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  margin-left: 50%;
+
+}
+
+
+ol,
+ul,
+h2 {
+  display: inline-block;
+  width: 20%;
+  height: 100px;
+  list-style-type: none;
+  margin: 50px;
+  line-height: 20px;
+  margin-top: 40px;
+
+}
+
+
+
+.lado-esquerdo,
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+
+}
+
+h2 {
+  background-color: green;
+  width: 115px;
+  height: 20px;
+  border-top: 10px solid black;
+}
+
+.button {
+  background-color: rgb(15, 43, 15);
+  padding: 10px;
+  font-size: 20px;
+  color: greenyellow;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid black;
+  display: inline-block;
+  width: 150px;
+  margin: 50px;
+  margin-left: 450px;
+  text-align: center;
+}
+
+
+a:hover {
+  background-color: yellowgreen;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+
+
+.table {
+  float: right;
+  background-color: rgb(46, 71, 21);
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+  margin-top: -110px;
+
+
+}
+
+#minha_foto2 {
+  width: 200px;
+  float: right;
+  margin-top: 4%;
+
+
+
+
+
+
+
+
+}
